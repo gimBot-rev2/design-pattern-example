@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node ./dist/app.js",
-    "start:dev": "ts-node ./src/app.ts"
+    "start:dev": "ts-node ./src/app.ts",
+    "start:test": "ts-node ./src/Notification/RunOrder.ts"
   },
   "repository": {
     "type": "git",

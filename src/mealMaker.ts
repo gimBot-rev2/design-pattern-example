@@ -1,8 +1,9 @@
-interface MealPlan {
+export interface MealPlan {
   setMealName: (mealName: string) => string
   setMealPrice: (mealPrice: number) => number
   setMealContents: (mealContents: string[]) => string[]
   setMealCooktingTime: (cookingTime: number) => number
+  getMealPrice: () => number
 }
 
 export class MealTemplate implements MealPlan {

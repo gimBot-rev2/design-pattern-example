@@ -1,6 +1,6 @@
 import ReadLine from "readline"
 import { KitchenAction, MealTypes } from "./builder"
-import { MealPlan, MealTemplate } from "./mealMaker"
+import { MealPlan } from "./mealMaker"
 import { OrderDiscount } from "./Order/OrderDiscounts"
 import { DefaultOrder } from "./Order/OrderVariants"
 import { RunOrder, DeliveryStatus } from "./Notification/RunOrder"
@@ -80,8 +80,3 @@ export const resolveChoice = (numberChoice: string) => {
 }
 
 StartDialogue()
-
-const MainCouse = (mealType: string) => {
-  const preparedMeal: MealTemplate = KitchenAction(resolveChoice(mealType))
-  console.log("Info", preparedMeal.getProps())
-}

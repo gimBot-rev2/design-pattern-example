@@ -1,4 +1,4 @@
-# Pizza Ordering System (Design Impl)
+# Pizza Ordering System (Design Implementation)
 
 This project is a food ordering system. That implements all three types of
 design patterns

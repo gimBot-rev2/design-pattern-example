@@ -30,3 +30,8 @@ external features can be added easily just by updating the decorator.
 
 The best part of the system. It's the notification system that notifies the
 customers when their food arrives
+
+## Contributers
+- Tihitna Tsegaye (ETS 1172/10)(#/#)
+- Yididya Samuel (ETS 1256/10)(#/#)
+- Yeabsera Genene (ETS 1240/10)(#/#)

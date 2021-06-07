@@ -7,7 +7,7 @@ design patterns
 
 You can run the app in two modes. You can use the typescript ts-node runner or
 the compiled JS code. To do that follow these steps:
-'''sh
+```sh
 $ git clone https://github.com/async69/design-pattern-example.git
 $ cd design-pattern-example/
 $ yarn // To install the packages
@@ -15,8 +15,7 @@ $ yarn start:dev // To start code by ts-node
 OR
 $ yarn build // To compile TS code
 $ yarn start // To run compiled JS code
-
-'''sh
+```
 ## Builder
 
 You can see the builder implemented in the kitchen. All the recepies
